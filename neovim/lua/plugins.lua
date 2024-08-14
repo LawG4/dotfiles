@@ -4,7 +4,10 @@ return {
     { "neovim/nvim-lspconfig" },
 
     -- which key, used for displaying the keybindings 
-    { "folke/which-key.nvim" },
+    -- This seems to have recently updated to a new config spec, and I should move with it
+    -- However that's more effort than I have time for right now
+    -- TODO: Fix this eventually
+    { "folke/which-key.nvim", commit = "7ccf476ebe0445a741b64e36c78a682c1c6118b7" },
     
     -- toggleterm, a built in terminal 
     { "akinsho/toggleterm.nvim" }, 
