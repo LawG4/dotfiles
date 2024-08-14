@@ -1,17 +1,17 @@
 # Dot Config Files
 
-Designed to help me get up and running as quickly as possible on a new system since I like a fresh start every now and again. We wanna split things into phases. 
+Designed to help me get up and running as quickly as possible on a new system since I like a fresh start every now and again. Batch and shell scripting is a bit frustrating and fragile to me, so as a result I like to use python
 
-## 1. Bootstrap to nu
+## Usage
 
-Generally I dislike `.sh`/`.bat` scripting, so we bootstrap out of those as quickly as possible. So the first thing we do is go into nushell so we can ditch those as quickly as possible. 
-
-Even if you don't like nushell as your final shell, we can use just for running the scripts 
+An install python script is supplied 
 
 ```bash
-# On Unix which comes with sh
-bootstrap.sh
+# Interactive install, it will ask you want you want
+$ python _install.py
 
-# On windows, batch script sadge
-bootstrap.bat
+# Select a specific folder/program you want to config
+$ python _install.py [options] --install=folder1,folder2
 ```
+
+# 
