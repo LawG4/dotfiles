@@ -37,7 +37,7 @@ return {
             { "BurntSushi/ripgrep" },    -- For live grep
             {                            -- Native Fuzzer for faster sorting 
                 'nvim-telescope/telescope-fzf-native.nvim', 
-                build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install . --prefix . --config Release' 
+                build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build --config Release' 
             },
 
         }, 
