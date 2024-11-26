@@ -19,7 +19,7 @@ vim.o.timeoutlen = 200
 vim.o.timeout = true
 
 -- Set the colour theme that I like to the comfy autumn one 
-vim.cmd [[colorscheme tempus_autumn]]
+-- vim.cmd [[colorscheme tempus_autumn]]
 
 -- Plugin loader, I want to use lazy.nvim
 local lazy_nvim_path = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
